@@ -9,3 +9,9 @@ This application displays a chart showing the relationship between the height an
 To show the smooth line in the chart, simply check the box to show, or un-check to not show.
 
 To show a predicted weight value, fill in a height (in inches) in the text box and the weight value will populate a moment later without any button presses.
+
+Notes:
+- There is no input validation performed.
+  - There are values for height that will display negative weight values.
+  - No error occurs if providing a negative height value
+  - There is no upper-bounds on height either.
