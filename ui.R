@@ -19,6 +19,7 @@ shinyUI(fluidPage(
     # Sidebar with a slider input for number of bins
     sidebarLayout(
         sidebarPanel(
+            tags$a(href="https://github.com/derekwhipple/DDP_Week4", "Help Documentation"),
             checkboxInput("modelLine",
                           "Smooth line",
                           value = FALSE),
